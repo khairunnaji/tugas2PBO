@@ -3,6 +3,13 @@ package tugas2pbo;
 public class baju {
     double Jumlah;
     double Harga;
+
+    public baju() {
+    Jumlah = 50;
+    Harga = 200000;
+    
+    }
+    
     
     void cetaknfo(){
         System.out.println("------------------------");
