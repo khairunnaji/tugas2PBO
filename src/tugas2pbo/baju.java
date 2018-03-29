@@ -9,5 +9,14 @@ public class baju {
         System.out.println("Jumlah : "+Jumlah);
         System.out.println("Harga : "+Harga);
         System.out.println("------------------------");
+       
+    }
+    double Hasil(){
+        double Hasil;
+       Hasil=Jumlah*Harga;
+       return Hasil;
+    }
+    void cetakHasil(){
+        System.out.println("Hasil Jual Yaitu :"+Hasil());
     }
 }

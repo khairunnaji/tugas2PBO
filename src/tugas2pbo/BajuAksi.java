@@ -8,5 +8,6 @@ public class BajuAksi {
         r1.Harga = 150000;
     
         r1.cetaknfo();
+        System.out.println("Hasil Jual = "+r1.Hasil());
     }
 }
