@@ -6,5 +6,7 @@ public class BajuAksi {
         baju r1 = new baju();
         r1.Jumlah = 24;
         r1.Harga = 150000;
+    
+        r1.cetaknfo();
     }
 }
