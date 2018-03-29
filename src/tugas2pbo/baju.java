@@ -9,6 +9,11 @@ public class baju {
     Harga = 200000;
     
     }
+
+    public baju(double Jumlah, double Harga) {
+        this.Jumlah = Jumlah;
+        this.Harga = Harga;
+    }
     
     
     void cetaknfo(){

@@ -10,5 +10,12 @@ public class BajuAksi {
         r1.cetaknfo();
         System.out.println("Hasil Jual = "+r1.Hasil());
         r1.cetakHasil();
+ 
+        baju r2 = new baju();
+        r2.cetaknfo();
+        
+         baju r3 = new baju();
+        r3.cetaknfo();
+        
     }
 }
